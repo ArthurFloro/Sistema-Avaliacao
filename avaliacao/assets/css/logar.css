@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("../imgs/plano3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.8);
+}
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  margin-bottom: -30px;
+}
+
+.infos h3 {
+  font-size: 15px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  padding: 35px;
+}
+
+.container input {
+  padding: 25px;
+  width: 110%;
+  border: none;
+  border-radius: 5px;
+}
+
+.container input::placeholder {
+  font-weight: bold;
+}
+
+.container button {
+  background-color: #0985ea;
+  color: white;
+  font-size: 15px;
+  width: 110%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.container button:hover {
+  filter: brightness(1.2);
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
